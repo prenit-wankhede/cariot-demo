@@ -16,7 +16,7 @@ development:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: cariot-demo_development
+  database: cariot
   pool:     5
   username: cariot
   password: 
@@ -44,7 +44,7 @@ test:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: cariot-demo_test
+  database: cariot_test
   pool:     5
   username: cariot
   password: 
@@ -54,7 +54,7 @@ production:
   adapter:  postgresql
   host:     localhost
   encoding: unicode
-  database: cariot-demo_production
+  database: cariot_production
   pool:     5
   username: cariot
   password: 
